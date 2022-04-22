@@ -8,8 +8,11 @@ from imutils.video import FPS
 from imutils.video import VideoStream
 from scipy.spatial import distance as dist
 
+ap = argparse.ArgumentParser()
+ap.add_argument("-v", "--video", required=True, help="input video link/file")
+args = vars(ap.parse_args())
 
-RTSP_URL = "people.mp4"
+RTSP_URL = args["video"]
 YOLO_PATH="yolo-coco"
 OUTPUT_FILE="output/outfile.avi"
 
