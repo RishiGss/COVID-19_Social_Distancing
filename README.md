@@ -19,9 +19,8 @@ To build OpenCV from Source with GPU support, watch this [video](https://www.you
 ### Steps to reproduce this project:
 1. Clone this repository.
 2. Create a python/conda environment and install the required packages.
-3. Edit the line 12 with the video feed link of CCTV camera or the path to the video file.
-4. Download the weigths file.
+3. Download the weigths file.
    File links:
    [YOLOv3 weights](https://pjreddie.com/media/files/yolov3.weights)   [YOLOv3 tiny weights](https://pjreddie.com/media/files/yolov3-tiny.weights)
-5. Run **social_distance_monitoring** for real-time social distance monitoring.
-6. Run  **opencv_object_tracking** for tracking an individual in the video.
+4. Run **social_distance_monitoring** for real-time social distance monitoring.
+5. Run  **opencv_object_tracking** for tracking an individual in the video.
